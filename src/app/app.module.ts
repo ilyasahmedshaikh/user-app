@@ -12,6 +12,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { LoaderComponent } from './shared/loader/loader.component';
 import { PopupComponent } from './shared/popup/popup.component';
 import { SearchBarComponent } from './shared/search-bar/search-bar.component';
+import { UserListComponent } from './components/user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SearchBarComponent } from './shared/search-bar/search-bar.component';
     HeaderComponent,
     LoaderComponent,
     PopupComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,

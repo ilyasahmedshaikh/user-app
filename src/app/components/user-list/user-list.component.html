@@ -5,10 +5,10 @@
         <th>Lastname</th>
         <th>Avatar</th>
     </tr>
-    <tr>
-        <td>1</td>
-        <td>Smith</td> 
-        <td>John</td>
-        <td>www.exmaple.com</td>
+    <tr *ngFor="let user of data.data; index as i">
+        <td>{{user.id}}</td>
+        <td>{{user.first_name}}</td> 
+        <td>{{user.last_name}}</td>
+        <td>{{user.avatar}}</td>
     </tr>
 </table>
